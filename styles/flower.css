@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1240px;
+}
+/* font style */
+.inter{
+    font-family:"Inter", sans-serif;
+}
+.noto{
+    font-family: "Noto Serif", serif;
+}
+/* shared style */
+.gray{
+    color: #8987A1;
+    font-size: 22px;
+    
+}
+.orange{
+    color: #E95A08;
+}
+/* navbar style */
+
+
+nav{
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+.nav-item{
+    border: 2px solid red;
+    width: 50%;
+}
+
+.nav-item ul{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item li{
+    list-style: none;
+}
+
+/* fresh flower style */
+.fresh-flower{
+    border: 2px solid red;
+    margin: 120px auto;
+    width: 1240px;
+    height: 465px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+
+}
+.fresh-flower-left{
+    width: 50%;
+    /* padding-top: 150px;
+    padding-bottom: 0%; */
+}
+.fresh-flower-left p{
+    width: 570px;
+    height: 110px;
+}
+.fresh-flower-right{
+    width: 50%;
+}
+.fresh-flower-img{
+    width:570px;
+    height: 355px;
+width: 100%;
+padding: 0;
+display: block;
+ 
+}
+.fresh-flower-title{
+    font-size: 65px;
+    font-weight: 700;
+}
