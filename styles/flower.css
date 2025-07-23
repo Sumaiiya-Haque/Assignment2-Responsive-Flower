@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-color: rgb(245, 248, 255);
+}
 .container{
     width: 1240px;
 }
@@ -16,6 +19,7 @@
 .gray{
     color: #8987A1;
     font-size: 22px;
+    line-height: 27px;
     
 }
 .orange{
@@ -25,15 +29,15 @@
 
 
 nav{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 20px auto;
 }
 .nav-item{
-    border: 2px solid red;
-    width: 50%;
+    /* border: 2px solid red; */
+    width: 415px;
 }
 
 .nav-item ul{
@@ -48,7 +52,7 @@ nav{
 
 /* fresh flower style */
 .fresh-flower{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 120px auto;
     width: 1240px;
     height: 465px;
@@ -83,3 +87,54 @@ display: block;
     font-size: 65px;
     font-weight: 700;
 }
+
+/* our plants style */
+.our-plant-title{
+    width: 1240px;
+    height: 140px;
+    margin: 0 auto;
+    text-align: center;
+    /* border: 2px solid red; */
+
+}
+.our-plant-title h1{
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.our-plant-title p{
+    
+}
+
+/* card container style */
+.card-container{
+    width: 1240px;
+    margin: 50px auto;
+    /* border: 2px solid green; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 15px;
+    row-gap: 20px;
+
+}
+.card-description{
+    text-align: center;
+    padding: 20px 0;
+}
+.card{
+    /* border: 2px solid red; */
+}
+.card-img{
+    width: 100%;
+}
+.cart-btn{
+    width: 100%;
+    background-color: #E95A08;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+    
