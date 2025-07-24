@@ -170,6 +170,7 @@ display: block;
     /* border: 2px solid blue; */
     width: 640px;
 }
+
 .flower-lover-right{
     /* border: 2px solid green; */
      padding: 40px 0;
@@ -180,9 +181,25 @@ padding-top: 30px;
 }
 .flower-lover-description ul{
     padding-left: 40px;
-    /* text-align:justify; */
+
 }
 .flower-lover-title{
     font-size: 50px;
     font-weight: 700;
+}
+
+/* latest style */
+.latest{
+    width: 1240px;
+    border: 2px solid red;
+margin: 130px auto 120px auto;
+}
+.latest-title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+.latest-paragraph{
+    text-align: center;
+    margin-top: 25px;
 }
