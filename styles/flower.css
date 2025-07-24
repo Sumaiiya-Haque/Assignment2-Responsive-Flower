@@ -109,7 +109,7 @@ display: block;
 /* card container style */
 .card-container{
     width: 1240px;
-    margin: 50px auto;
+    margin: 50px auto 0 auto;
     /* border: 2px solid green; */
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -137,4 +137,52 @@ display: block;
     font-size: 16px;
     font-weight: 500;
 }
+
+/* badge style */
+.badge{
+    /* border: 2px solid green; */
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    transform: translateX(-120px) translateY(180px);
+    filter: drop-shadow(-4px 10px 4px rgba(0, 0, 0, 0.25) );
+
     
+}
+.badge-img{
+    width: 100%;
+    height: 100%;
+} 
+
+
+
+    /* flower lover style start */
+.flower-lover-container{
+    /* border: 2px solid red; */
+    width: 1240px;
+    height: 600px;
+    margin: 0px  auto 0 auto;
+    /* margin-top: 0%; */
+    display: flex;
+    gap:100px;
+}
+.flower-lover-left{
+    /* border: 2px solid blue; */
+    width: 640px;
+}
+.flower-lover-right{
+    /* border: 2px solid green; */
+     padding: 40px 0;
+     
+}
+.flower-lover-description li { 
+padding-top: 30px;
+}
+.flower-lover-description ul{
+    padding-left: 40px;
+    /* text-align:justify; */
+}
+.flower-lover-title{
+    font-size: 50px;
+    font-weight: 700;
+}
