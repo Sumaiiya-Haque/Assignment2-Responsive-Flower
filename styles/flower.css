@@ -323,6 +323,8 @@ color: aliceblue;
             background-color:#E95A08;
             border: none;
         }
+        
+        
         /* footer style */
 
         .footer-part{
@@ -348,7 +350,11 @@ color: aliceblue;
         font-size: 18px;
 
         }
-        .footer-column2, .footer-column3, li{
+        .footer-column2 li{
+            list-style: none;
+        }
+
+          .footer-column3 li{
             list-style: none;
         }
 
