@@ -157,22 +157,19 @@ display: block;
 
 
     /* flower lover style start */
+
 .flower-lover-container{
-    /* border: 2px solid red; */
     width: 1240px;
     height: 600px;
     margin: 0px  auto 0 auto;
-    /* margin-top: 0%; */
     display: flex;
     gap:100px;
 }
-.flower-lover-left{
-    /* border: 2px solid blue; */
+.flower-lover-left{ 
     width: 640px;
 }
 
 .flower-lover-right{
-    /* border: 2px solid green; */
      padding: 40px 0;
      
 }
@@ -284,7 +281,7 @@ color: aliceblue;
             background-size: cover;
             width: 1536px;
             height: 450px;
-            margin-bottom: 100px;
+            margin-bottom: 50px;
         }
 
         .join {
@@ -325,6 +322,49 @@ color: aliceblue;
             color: aliceblue;
             background-color:#E95A08;
             border: none;
+        }
+        /* footer style */
+
+        .footer-part{
+            width: 1200px;
+            height: 250px;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            column-gap: 20px;
+            margin: 0 auto 50px auto;
+        }
+
+        .footer-column1{
+            width: 100%;
+        }
+
+        .footer-column2 ul{
+            width: 100%;
+            height: 100%;
+        display: grid;
+        justify-items: center;
+        grid-template-rows: repeat(5,1fr);
+        row-gap: 20px;
+        font-size: 18px;
+
+        }
+        .footer-column2, .footer-column3, li{
+            list-style: none;
+        }
+
+        .footer-column3 ul{
+            width: 100%;
+            height: 100%;
+        display: grid;
+        justify-items: center;
+        grid-template-rows: repeat(5,1fr);
+        row-gap: 20px;
+        font-size: 18px;
+        }
+        .footer-column4-logo{
+            display: flex;
+            flex-direction: row-reverse;
+            gap: 30px;
         }
 
 
