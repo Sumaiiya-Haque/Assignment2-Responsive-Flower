@@ -277,32 +277,56 @@ color: aliceblue;
     color: aliceblue;
 }
 /* colorful bunch */
-.colorful-bunch{
-    background-image: url(../assets/news-letter-bg.png);
-    background-repeat: no-repeat;
-    background-size:cover;
-    max-width:1500px;
-    height: 535px;
-    margin: 0;
-    /* margin-bottom: 100px; */
 
-    /* margin: 100px auto; */
-    padding: 100px;
-}
+ .join-container {
+            background-image: url('../assets/news-letter-bg.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 1536px;
+            height: 450px;
+            margin-bottom: 100px;
+        }
 
-.input-section input{
-    width: 100%;
-    height: 100%;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.subscribe{
-    background-color: #E95A08;
-    color: aliceblue;
-    
-} 
+        .join {
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-items: center;
+            padding-top: 160px;
+            
+        }
+        .join-title{
+            color: aliceblue;
+            font-size: 50px;
+            font-weight: 700;
+        }
+
+        .form {
+        /* border: 2px solid red; */
+            display: flex;
+            flex-direction: row;
+            gap: 0;
+            width: 830px;
+            height: 50px;
+            padding-top:20px;
+            
+
+        }
+
+        .form input[type="email"] {
+            width: 70%;
+            padding: 20px;
+
+        }
+
+        .form input[type="submit"] {
+            width: 30%;
+            padding: 20px;
+            color: aliceblue;
+            background-color:#E95A08;
+            border: none;
+        }
+
 
 
 
